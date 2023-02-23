@@ -1,6 +1,10 @@
 #include "main.h"
+
 /*
- * main - prints a-z
+ * print_alphabet - prints a-z
+ * @letter: char to check
+ *
+ * Return: 0
  */
 
 void print_alphabet(void)
@@ -12,4 +16,5 @@ void print_alphabet(void)
 		_putchar(letter);
 	}
 		_putchar('\n');
+		return (0);
 }
