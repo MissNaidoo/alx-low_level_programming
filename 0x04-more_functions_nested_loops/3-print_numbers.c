@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - check if number 0 - 9 prints
- *
+ * @i: char to check
  * Return: void
  */
 
@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		putchar(c);
+		_putchar(c);
 	}
 		_putchar('\n');
 }
