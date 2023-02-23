@@ -2,15 +2,17 @@
 
 /**
  * 3-print_numbers - check if number 0 - 9 prints
- * @c: char to be checked
+ * @i: char to be checked
  *
- * Return: 1
+ * Return: 1 or 0
  */
 
 void print_numbers(void)
 {
-	if (c >= '0' && c <= '9')
+	if (i >= '0' && i <= '9')
+	{
+		_putchar("/%d" '\n', i);
 		return (1);
 	else
-		return ('\n');
+		return (0);
 }
