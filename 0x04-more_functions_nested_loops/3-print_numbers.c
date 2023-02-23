@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - check if number 0 - 9 prints
- * @i: char to check
  * Return: void
  */
 
