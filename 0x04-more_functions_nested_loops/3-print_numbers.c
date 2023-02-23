@@ -2,22 +2,17 @@
 
 /**
  * print_numbers - check if number 0 - 9 prints
- * @i: char to be checked
  *
- * Return: 0
+ * Return: void
  */
 
 void print_numbers(void)
 {
-	int i;
+	char i;
 
-	if (i >= '0' && i <= '9')
+	for (i = '0'; i <= '9'; i++)
 	{
-		putchar(i);
+		putchar(c);
 	}
-	else
-	{
-		return (0);
-	}
-	_putchar('\n');
+		_putchar('\n');
 }
