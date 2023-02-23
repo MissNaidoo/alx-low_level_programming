@@ -2,22 +2,17 @@
 
 /**
  * print_most_numbers - Prints numbers 0 1 3 5 6 7 8 9
- * @i: int to check
  *
- * Return: 0 or 1
+ * Return: void
  */
 
 void print_most_numbers(void)
 {
-	int i;
+	char i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		if (i == 2 && i == 4)
-		{
-			continue;
-		}
-		else
+		if (i == '2' && i == '4')
 		{
 			_putchar(i);
 		}
